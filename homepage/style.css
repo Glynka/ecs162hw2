@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #000030; /* Black-blue color */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove right margin from the last item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #000080; /* Darker shade of blue on hover */
+}
+
+#title-img {
+  display: block;
+  
+  width: 100%;
+}
+
+.img-with-text {
+  position: relative;
+  text-align: center;
+}
+
+.text-over-image {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 110%);
+  text-align: center;
+  color: red;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6vw;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px grey;
+}
+
+@media screen and (max-width: 700px) {
+  #title-img {
+    width: 200%
+  }
+  
+}
