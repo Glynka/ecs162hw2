@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 44px;
+    height: 46px;
+    border: 1px solid lightgray;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: rgb(52, 93, 176);
+    border-radius: 7px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.button-toggled {
+    background-color: rgb(27, 23, 139);
+    color: #e0cbcb;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.button-clicked {
+    background-color: rgb(27, 23, 139);
+    color: #e0cbcb;
+}
+
+.incorrect {
+    border: 2px solid #ed968c;
+    border-radius: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    right: 35%;
+    background-color: #f6d5d1;
+    color: #303134;
+}
+
+.correct {
+    border: 2px solid #0e7f1d;
+    border-radius: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    right: 35%;
+    background-color: #499b5d;
+    color: #303134;
+}
+
+.top-nav ul {
+    text-align: left;
+}
