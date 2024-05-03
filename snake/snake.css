@@ -62,3 +62,15 @@ canvas {
 .top-nav ul {
     text-align: left;
 }
+
+.gameOverMessage {
+    border: 2px solid #ed968c;
+    border-radius: 2px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    right: 35%;
+    background-color: #f6d5d1;
+    color: #303134;
+}
