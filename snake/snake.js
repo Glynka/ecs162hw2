@@ -38,7 +38,7 @@ window.onload = function() {
     rngSnake();
 
     document.addEventListener("keyup", movement);
-    setInterval(update, 1000/10);
+    setInterval(update, 1000/15);
     //update();
     requestAnimationFrame(update);
 }
