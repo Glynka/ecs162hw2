@@ -127,12 +127,12 @@ function updateScore() {
 function restrictions() {
     if (snakeX < 0 || snakeX > (cols * blockUnit) || snakeY < 0 || snakeY > (rows * blockUnit)) {
         gameOver = true;
-        alert("Game Over");
+        gameOverMessage("Game Over! Be careful with the walls!");
     }
     for (let i = 0; i < snakeGrowth.length; i++) {
         if (snakeX == snakeGrowth[i][0] && snakeY == snakeGrowth[i][1]) {
             gameOver = true;
-            alert("Game Over");
+            gameOverMessage("Game Over! Try not to eat yourself!");
         }
         
     }
@@ -146,4 +146,13 @@ function rngFood() {
 function rngSnake() {
     snakeX = Math.floor(Math.random() * cols) * blockUnit;
     snakeY = Math.floor(Math.random() * rows) * blockUnit;
+}
+
+function gameOverMessage(msg) {
+    var messageElement = document.getElementById("gameover-message");
+    messageElement.textContent = msg;
+    messageElement.style.display = "block";
+    setTimeout(function() {
+        messageElement.style.display = "none";
+    }, 2000);
 }
