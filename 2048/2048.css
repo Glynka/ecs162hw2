@@ -46,6 +46,7 @@ body{
 .title{
     font-size: 3.75rem;
     font-weight: bold;
+    margin-left: 20%
 }
 
 .new-game:hover{
@@ -171,6 +172,10 @@ p{
 #keyup{
     align-items: center;
     justify-content: center;
+}
+
+.top-nav ul {
+    text-align: left;
 }
 
 @media only screen and (max-width: 500px) {
