@@ -28,7 +28,9 @@ canvas {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 800px;
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
 }
 
 .score {
@@ -57,4 +59,6 @@ canvas {
     font-size: 1rem;
 }
 
-
+.top-nav ul {
+    text-align: left;
+}
