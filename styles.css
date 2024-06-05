@@ -25,6 +25,7 @@ body {
   height: 20vh;
   border-radius: 180%;
   border: dotted;
+  margin-top: 50px;
 }
 
 .text-div * {
