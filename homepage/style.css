@@ -46,6 +46,7 @@ body {
     background: rgba(56, 70, 75, 0.5);
     border-radius: 10% / 50%;
     border: dashed rgb(173, 216, 230, 0.75) 4px;
+    margin-top: 50px;
 }
 
 .text-div * {
