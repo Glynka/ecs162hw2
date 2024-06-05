@@ -42,12 +42,11 @@ body {
 }
 
 .text-div {
-  display: block;
-  margin: auto;
-  background-color: rgba(59, 71, 96, 0.8);
-  width: 50%;
-  height: 20vh;
-  border-radius: 180%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(56, 70, 75, 0.5);
+    border-radius: 10% / 50%;
+    border: dashed rgb(173, 216, 230, 0.75) 4px;
 }
 
 .text-div * {
