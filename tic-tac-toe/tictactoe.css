@@ -12,7 +12,7 @@
 }
 
 .cell {
-    background-color: #fff;
+    background-color: rgb(173, 216, 230, 0.75);
     border: 2px solid #333;
     font-size: 48px;
     font-weight: bold;
