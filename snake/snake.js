@@ -53,7 +53,7 @@ function update() {
     
 
     // canvas
-    drawingBoard.fillStyle="grey";
+    drawingBoard.fillStyle="rgb(56, 70, 75)";
     drawingBoard.fillRect(0,0, board.width,board.height); 
 
     // snake+apple
